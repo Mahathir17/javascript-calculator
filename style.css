@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+}
+.card{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    font-size: 0;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.cal-head #result{
+    height: 100px;
+    width: 340px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 0;
+    padding: 0 5px;
+    letter-spacing: 5px;
+    background-color: #292929;
+    color: white;
+    transition: 0.5s;
+}
+.cal-head #result:hover{
+    background-color: #3f3f3f;
+}
+.btn{
+    height: 70px;
+    width: 87px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #1f2326;
+    color: white;
+    /* border-radius: 10px; */
+    transition: 0.2s;
+    border: 1px solid black;
+}
+.btn-style{
+    background-color: #5F4BB6;
+}
+.btn:hover{
+    background-color: pink;
+}
+.cal-body{
+    background-color: black;
+}
